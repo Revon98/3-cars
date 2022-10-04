@@ -1,0 +1,75 @@
+
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+    
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxar {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+img {
+    width: 60px;
+}
+.bild1 {
+    
+    background-color: hsl(31, 77%, 52%);
+}
+.bild2 {
+    background-color: hsl(184, 100%, 22%);
+}
+.bild3 {
+    background-color: hsl(179, 100%, 13%);
+}
+.bild1 button{
+    color:hsl(31, 77%, 52%);
+}
+.bild2 button{
+    color:hsl(184, 100%, 22%);
+}
+.bild3 button{
+    color:hsl(179, 100%, 13%);
+}
+button {
+    margin-top: 30px;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+h2{
+    font-size: 35px;
+    color: white;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media screen and (max-width: 530px) {
+    .boxar {
+      flex-direction: column;
+    }
+  }
